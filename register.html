@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>registration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+</head>
+<style>
+    h4 {text-align: center;}
+</style>
+<body>
+    <p><a href="index.html"><button style="color: rebeccapurple;">Go back to homepage</button></a></p>
+    <!--here use GET not POST-->
+    <!-- use post not get -->
+    <h2>REGISTRATION</h2>
+   <h3><p> <form name="registration" method="post" netlify>
+        <b style="color: blue;">First name :</b> <br>
+        <input type="text" name="first name" required placeholder="Enter your first name"><br><br>
+        <b style="font-size: large;color: blue;">Surname :</b> <br>
+        <input type="text" name="surname" required placeholder="Enter your surname here"><br><br>
+        <b style="color: blue;">Email :</b><br>
+         <input type="email" name="email" required placeholder="Enter your Email here"><br><br>
+        <B style="color: blue;">Password :</B><br>
+         <input type="password" name="password" min="8 required" required placeholder="Enter your desired password here"><br><br>
+        <b style="color: blue;">Date of birth :</b> <br>
+        <input type="date" name="date of birth" required><br><br>
+        <b style="color: blue;">Gender:</b><br>
+        <input  type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="others">others <br>
+        <b style="color: blue;">Pets:</b><br>
+        <input type="checkbox" name="dogs" dogs>Dogs
+        <input type="checkbox" name="cats" cats>cats
+        <input type="checkbox" name="rabbits" rabbits>rabbits <br>
+        <b style="color: blue;">Cars :</b><br>
+        <select name="Cars">
+            <option value="volvo" name="volvo">volvo</option>
+            <option value="Gwagon" name="Gwagon">Gwagon</option>
+            <option value="BMW" name="BMW">BMW</option>
+        </select><br> <br>
+        <input style="color: green;" type="submit" value="Register!">
+        <input type="reset" style="color: brown;">
+        </form></p></h3>
+        <a href="feedback.html"><button style="color: gold;">Give feedback</button></a>
+</body>
+</html>
