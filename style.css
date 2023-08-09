@@ -1,0 +1,18 @@
+p {
+    color: red;
+}
+h3 {
+color: blueviolet;
+text-align: center;
+}
+body {
+    background-image: url(image6.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid green;
+}
